@@ -2,12 +2,12 @@
 `CryptoUtility` is a Java class that provides methods for encrypting and decrypting files using PGP (Pretty Good Privacy) encryption. PGP is a widely used encryption standard that allows for secure communication and data storage.
 
 ## Dependencies
-CryptoUtility requires the following external libraries:
+`CryptoUtility` requires the following external libraries:
 
 `org.pgpainless`: A library for working with PGP encryption in Java.
 Make sure to include these dependencies in your project's classpath.
 
-Usage
+## Usage
 `CryptoUtility` provides three main methods:
 
 1. `setCompressionAlgorithm()`
@@ -21,7 +21,7 @@ This method prompts the user for a file path and a password, and then decrypts t
 
 Note: It's important to provide the correct password for successful decryption.
 
-Example Usage
+## Example Usage
 
 ```
 package com.sumit.crypto;
